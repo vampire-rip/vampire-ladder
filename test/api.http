@@ -1,0 +1,23 @@
+POST http://localhost:3000/login
+Content-Type: application/x-www-form-urlencoded
+
+user=123@41&pass=22222221212
+
+###
+
+POST http://localhost:3000/register
+Content-Type: application/x-www-form-urlencoded
+
+nick=a11aaa11&pass=222222&email=123@41
+
+###
+
+GET http://localhost:3000/info
+cookie: sid=V7ZK5v~41dLmGfHTrBGqU;sts=jnpg3un1d;
+
+###
+
+GET http://localhost:3000/github/auth
+cookie: sid=V7ZK5v~41dLmGfHTrBGqU;sts=jnpg3un1d;
+
+###
